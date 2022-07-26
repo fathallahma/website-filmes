@@ -1,0 +1,161 @@
+@import url(https://fr.allfont.net/allfont.css?fonts=edo);
+body{
+  width:100%;
+  text-align: center;
+	
+}
+
+header {
+	background-image: url("../images/splash.png");
+	background-position;
+  width: 100%;
+  height: 650px;
+  position: relative;
+  top: -50px;
+}
+
+h1{
+  position: relative;
+  top: 260px;
+   font-family: 'Edo';
+  font-size: 100px;
+  color:#f57d55;
+}
+
+#selection{
+  width: 215px;
+  position: relative;
+  height: 750px;
+  
+}
+
+#select1, #select2{
+  width: 250px;
+  height : 360px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 55px;
+	margin-bottom: 60px;
+  background-color: #fbeedd;
+  text-align: center;
+}
+
+#select1 div, #select2 div{
+   width:inherit;
+	 height: 0px;
+	
+}
+
+#select1 div h3, #select2 div h3{
+  height: 40px;
+	
+}
+#select1 div img, #select2 div img{
+ margin: 0px 0px 0px 0px;
+	width : 100%;	
+}
+#select1 span, #select2 span{
+  color: white;
+  font-size: 100px;
+  position : relative;
+	top : 100px;
+} 
+
+#select1 h3, #select2 h3{
+  background-color: white;
+  padding: 8%;
+}
+div#selection>div span:nth-child(2) {
+	font-size : 20px;	
+	color : rgb(80,80,80);
+	position : absolute;
+	top : 6px;
+	right : -60px;
+	background-color : white;	
+	padding : 0px 5px;
+	border-radius : 5px;
+	box-shadow:  0px 0px 1px 0px #f3c6a4;
+}
+
+div#catalog {
+	padding : 5px;
+  position : absolute;
+	left : 420px;
+	top : 750px;
+	width : 60%;
+	max-width : 1000px;
+
+}
+#selection > h3{
+	color:#f57d55;
+	font-family: "edo";
+	font-size: 30px;
+	margin-left: 45px;
+}
+div#catalog div {
+		text-align : left;
+}
+
+div#films, div#details{
+	padding : 10px;
+
+}
+div#films{
+	
+}
+div.film {
+	display : inline-block;
+	width : 200px;
+	height : 350px;
+	vertical-align : top; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div#films div.film {
+	margin : 20px 15px;	
+}
+div#films{
+		box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1) ;
+}
+div.film h3 {
+	height : 75px;
+	background-color : white;
+	padding : 5px;
+	margin : 0px 0px 5px ;	
+	color : #f57d55;
+	 font-family: 'Edo';
+	font-size: 22px;
+	text-align: center;
+	white-space : initial;
+}
+div#films {
+	height : 400px;
+	overflow-x: hidden;
+   overflow-y: scroll;
+	white-space: revert
+}
+div.film img {
+	width : 90%;	
+	margin: 0px 0px 0px 10px;
+		box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div#details{
+	min-height : 150px;
+	margin : 20px 0px;
+	color : black;
+	
+	
+			box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 #f9e4cc;
+
+}
+
+#filter {
+	font-size : 20px;
+	margin-bottom : 10px;
+	margin-right : 200px;
+	width : 250px;	
+	border:none;
+	border-bottom: solid #ffebdb;
+}
+
